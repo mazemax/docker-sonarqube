@@ -48,7 +48,7 @@ docker pull harbur/sonarqube:5.6
 Alternately you can build the image yourself if you run 5.6.
 
 ```bash
-git clone https://github.com/harbur/docker-sonarqube.git
+git clone https://github.com/mazemax/docker-sonarqube.git
 cd docker-sonarqube
 docker build --tag="$USER/sonarqube" .
 ```
