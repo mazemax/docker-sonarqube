@@ -58,7 +58,7 @@ docker build --tag="$USER/sonarqube" .
 Run the SonarQube with Docker Compose. Docker Compose uses a `docker-compose.yml` file that describes the environment.
 
 ```bash
-git clone https://github.com/harbur/docker-sonarqube.git
+git clone https://github.com/mazemax/docker-sonarqube.git
 cd docker-sonarqube
 docker-compose up
 ```
